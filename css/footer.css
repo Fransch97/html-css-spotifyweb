@@ -7,6 +7,68 @@ footer{
     height: 100px;
     display: flex;
     justify-content: space-between;
+    background-color: #282828;
+}
+.current-song{
+    width: 230px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
-    
+.song-title{
+    display: flex;
+    align-items: center;
+}
+
+.current-song img{
+    width: 60px;
+    height: 60px;
+    background-color: #282828;
+    margin: 10px;
+}
+
+.current-song .artist{
+    color: white;
+}
+
+
+.lisening{
+    flex-grow: 1;
+    border: solid black 2px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.spotify-tools{
+    width: 230px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 13px;
+}
+
+.sound-volume{
+    background-color: #585858;
+    width: 50%;
+    height: 5px;
+    border-radius: 5px;
+}
+.effective{
+    height: 100%;
+    width: 20%;
+    background-color: #c1c1c1;
+    border-radius: 5px;
+
+}

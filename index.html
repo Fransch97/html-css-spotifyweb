@@ -22,6 +22,7 @@
     
     <!--END GOOGLE FONTS -->
     <title>Spotify</title>
+    <link rel="icon" href="img/logo-small.svg">
 </head>
 <body>
     
@@ -46,23 +47,23 @@
                     <div class="directions">
                                         
                                         <!-- home  -->
-                                        <div class="home">
-                                            <i>icon</i>
+                                        <div class="home " id="active-direction">
+                                            <svg viewBox="0 0 512 512" width="27px" xmlns="http://www.w3.org/2000/svg"><path d="M448 463.746h-149.333v-149.333h-85.334v149.333h-149.333v-315.428l192-111.746 192 110.984v316.19z" fill="#ffffff"/></svg>
                                             <span>Home</span>
                                         </div>
                                         <!--end home  -->
                                     
                                         <!-- search  -->
                                         <div class="search">
-                                            <i>icon</i>
-                                            <span>Home</span>
+                                            <svg viewBox="0 0 512 512" width="27px" xmlns="http://www.w3.org/2000/svg"><path d="M349.714 347.937l93.714 109.969-16.254 13.969-93.969-109.969q-48.508 36.825-109.207 36.825-36.826 0-70.476-14.349t-57.905-38.603-38.603-57.905-14.349-70.476 14.349-70.476 38.603-57.905 57.905-38.603 70.476-14.349 70.476 14.349 57.905 38.603 38.603 57.905 14.349 70.476q0 37.841-14.73 71.619t-40.889 58.921zM224 377.397q43.428 0 80.254-21.461t58.286-58.286 21.461-80.254-21.461-80.254-58.286-58.285-80.254-21.46-80.254 21.46-58.285 58.285-21.46 80.254 21.46 80.254 58.285 58.286 80.254 21.461z" fill="#ffffff" fill-rule="evenodd"/></svg>
+                                            <span>Cerca</span>
                                         </div>
                                         <!--end search  -->
 
                                         <!-- library  -->
                                         <div class="library">
-                                            <i>icon</i>
-                                            <span>Home</span>
+                                            <svg viewBox="0 0 512 512" width="27px" xmlns="http://www.w3.org/2000/svg"><path d="M291.301 81.778l166.349 373.587-19.301 8.635-166.349-373.587zM64 463.746v-384h21.334v384h-21.334zM192 463.746v-384h21.334v384h-21.334z" fill="#ffffff"/></svg>
+                                            <span>La tua libreria</span>
                                         </div>
                                         <!--end library  -->
                     
@@ -81,7 +82,7 @@
 
                                     <!-- creatplaylist  -->
                                     <div class="creat-playlist">
-                                        <i>icon</i>
+                                       <span id="plus">+</span>
                                         <span>Crea playlist</span>
                                     </div>
                                     <!--end creatplaylist  -->
@@ -105,11 +106,13 @@
 
                     <!-- PROFILE -->
                     <div class="profile">
-                        <i>icon</i>
-                        <span>Installa app</span>
+                        <div class="install-app">
+                            <svg viewBox="0 0 20 20" width="15px" xmlns="http://www.w3.org/2000/svg"><title>Download icon</title><path d="M12 11.657V6h-1v5.65L9.076 9.414l-.758.65 3.183 3.702 3.195-3.7-.758-.653L12 11.657zM11.5 2C7.358 2 4 5.358 4 9.5c0 4.142 3.358 7.5 7.5 7.5 4.142 0 7.5-3.358 7.5-7.5C19 5.358 15.642 2 11.5 2zm0 14C7.916 16 5 13.084 5 9.5S7.916 3 11.5 3 18 5.916 18 9.5 15.084 16 11.5 16z" fill="#ffffff" fill-rule="evenodd"/></svg>
+                            <span>Installa app</span>
+                        </div>
                         <hr>
                         <div class="profile-id">
-                            <i>icon</i>
+                           <img class="profile-img" src="img/profile.svg" alt="">
                             <span>marco polo</span>
                         </div>
                     </div>
@@ -117,8 +120,40 @@
 
                 </nav>
                 <!--END NAV  -->
+
+
+
+
+
+
+
+
+
+
             </aside>
             <!-- END ASIDE  -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
             <!-- SECTION  -->
             <section >
@@ -131,35 +166,27 @@
 
 
 
-
-
-
                 <!-- MUSIC LIST -->
                 <div class="music-list">
                     <ul>
                         <li>
-                            <p>in evidenza</p>
+                            <a href="#">in evidenza</a>
                             <div class="active"></div>
                         </li>
                         <li>
-                            <p>Podcust</p>
-                            <div class="active"></div>
+                            <a href="#">Podcust</a>
                         </li>
                         <li>
-                            <p>classiche</p>
-                            <div class="active"></div>
+                            <a href="#">classiche</a>
                         </li>
                         <li>
-                            <p>generi e mood</p>
-                            <div class="active"></div>
+                            <a href="#">generi e mood</a>
                         </li>
                         <li>
-                            <p>nuove uscite</p>
-                            <div class="active"></div>
+                            <a href="#">nuove uscite</a>
                         </li>
                         <li>
-                            <p>scopri</p>
-                            <div class="active"></div>
+                            <a href="#">scopri</a>
                         </li>
                     </ul>
                 </div>
@@ -176,20 +203,66 @@
                 <!-- RECENTLY PLAYED  -->
                 <div class="recently-played">
 
-                    <h1>Recently played</h1>
+                        <div class="section-title">
+                            
+                            <h1>Recently played</h1>
 
-                    <!-- SONG-CONTAINER  -->
+                        </div>
+        
+                        <!-- SONG-CONTAINER  -->
                     <div class="song-container">
 
                         <!-- SONG  -->
                         <div class="song">
                             <div class="img-container">
-                                <img src="img/cure.jpeg" alt="">
+                                <img src="img/metal_lifting.jpg" alt="">
                                 <div class="layover">
                                     <i>Play</i>
                                 </div>
                             </div>
-                            <h4>lorem</h4>
+                            <h4>Heavy Metal</h4>
+                            <span>Subitile</span>
+                            
+                        </div>
+                        <!--END SONG  -->
+
+                        <!-- SONG  -->
+                        <div class="song">
+                            <div class="img-container">
+                                <img src="img/stranger.jpeg" alt="">
+                                <div class="layover">
+                                    <i>Play</i>
+                                </div>
+                            </div>
+                            <h4>Stranger Things, Vol. 1 (a Netflix Original Series Soundtrack)</h4>
+                            <span>Kyele Dixon & Michael Stein</span>
+                            
+                        </div>
+                        <!--END SONG  -->
+
+                        <!-- SONG  -->
+                        <div class="song">
+                            <div class="img-container">
+                                <img src="img/aquietplace.jpeg" alt="">
+                                <div class="layover">
+                                    <i>Play</i>
+                                </div>
+                            </div>
+                            <h4>A quiet place</h4>
+                            <span>Subitile</span>
+                            
+                        </div>
+                        <!--END SONG  -->
+
+                        <!-- SONG  -->
+                        <div class="song">
+                            <div class="img-container">
+                                <img src="img/split.jpeg" alt="">
+                                <div class="layover">
+                                    <i>Play</i>
+                                </div>
+                            </div>
+                            <h4>Split</h4>
                             <span>Subitile</span>
                             
                         </div>
@@ -203,7 +276,7 @@
                                     <i>Play</i>
                                 </div>
                             </div>
-                            <h4>lorem</h4>
+                            <h4>A cure for wellness</h4>
                             <span>Subitile</span>
                             
                         </div>
@@ -212,54 +285,12 @@
                         <!-- SONG  -->
                         <div class="song">
                             <div class="img-container">
-                                <img src="img/cure.jpeg" alt="">
+                                <img src="img/sinister.jpeg" alt="">
                                 <div class="layover">
                                     <i>Play</i>
                                 </div>
                             </div>
-                            <h4>lorem</h4>
-                            <span>Subitile</span>
-                            
-                        </div>
-                        <!--END SONG  -->
-
-                        <!-- SONG  -->
-                        <div class="song">
-                            <div class="img-container">
-                                <img src="img/cure.jpeg" alt="">
-                                <div class="layover">
-                                    <i>Play</i>
-                                </div>
-                            </div>
-                            <h4>lorem</h4>
-                            <span>Subitile</span>
-                            
-                        </div>
-                        <!--END SONG  -->
-
-                        <!-- SONG  -->
-                        <div class="song">
-                            <div class="img-container">
-                                <img src="img/cure.jpeg" alt="">
-                                <div class="layover">
-                                    <i>Play</i>
-                                </div>
-                            </div>
-                            <h4>lorem</h4>
-                            <span>Subitile</span>
-                            
-                        </div>
-                        <!--END SONG  -->
-
-                        <!-- SONG  -->
-                        <div class="song">
-                            <div class="img-container">
-                                <img src="img/cure.jpeg" alt="">
-                                <div class="layover">
-                                    <i>Play</i>
-                                </div>
-                            </div>
-                            <h4>lorem</h4>
+                            <h4>Sinister</h4>
                             <span>Subitile</span>
                             
                         </div>
@@ -277,8 +308,10 @@
                 <!-- FOR USER  -->
                 <div class="for-user">
 
-                    <h1>Creato per John Doe</h1>
-                    <p>Più ascolti più accurati saranno i suggerimenti.</p>
+                    <div class="section-title">
+                        <h1>Creato per John Doe</h1>
+                        <p>Più ascolti più accurati saranno i suggerimenti.</p>
+                    </div>
 
                     <!-- SONG-CONTAINER  -->
                     <div class="song-container">
@@ -286,7 +319,7 @@
                         <!-- SONG  -->
                         <div class="song">
                             <div class="img-container">
-                                <img src="img/cure.jpeg" alt="">
+                                <img src="img/radar.jpeg" alt="">
                                 <div class="layover">
                                     <i>Play</i>
                                 </div>
@@ -299,7 +332,7 @@
                         <!-- SONG  -->
                         <div class="song">
                             <div class="img-container">
-                                <img src="img/cure.jpeg" alt="">
+                                <img src="img/mixdaily.jpeg" alt="">
                                 <div class="layover">
                                     <i>Play</i>
                                 </div>
@@ -317,8 +350,10 @@
                      <!--ARTISTS  -->
                     <div class="artists">
 
-                        <h1>Artisti più popolari</h1>
-                        <p>Più ascolti più accurati saranno i suggerimenti.</p>
+                        <div class="section-title">
+                            <h1>Artisti più popolari</h1>
+                            <p>Più ascolti più accurati saranno i suggerimenti.</p>
+                        </div>
 
                         <!-- SONG-CONTAINER  -->
                         <div class="song-container">
@@ -326,24 +361,24 @@
                             <!-- SONG  -->
                         <div class="song">
                             <div class="img-container">
-                                <img src="img/cure.jpeg" alt="">
+                                <img src="img/player_left.jpg" alt="">
                                 <div class="layover">
                                     <i>Play</i>
                                 </div>
                             </div>
-                            <h4>lorem</h4>
+                            <h4>Clark Griswold</h4>
                             
                         </div>
                         <!--END SONG  -->
                         <!-- SONG  -->
                         <div class="song">
                             <div class="img-container">
-                                <img src="img/cure.jpeg" alt="">
+                                <img src="img/einaudi.jpeg" alt="">
                                 <div class="layover">
                                     <i>Play</i>
                                 </div>
                             </div>
-                            <h4>lorem</h4>
+                            <h4>Einaudi</h4>
                             
                         </div>
                         <!--END SONG  -->
@@ -367,13 +402,22 @@
 
 
         <!-- FOOTER  -->
-        <footer class="debug-yellow debug-h-100">
+        <footer >
             <!-- CURRENT-SONG  -->
-            <div class="current-song debug-h-100 debug-w-100 debug-blue">
-                <img src="" alt="">
+            <div class="current-song">
                 <div class="song-title">
-                    <span>lorem</span>
-                    <span>lorem</span>
+                    <div class="current-img">
+                        <img src="img/sinister.jpeg" alt="">
+                    </div>
+                    <div class="song-title-name">
+                    <p class="artist">Sinister</p>
+                    <p class="song-name">Brano nome</p>
+                    </div>
+                </div>
+
+                <div class="icons ">
+                    <i class="fa-regular fa-heart"></i>
+                    <i class="fa-regular fa-folder"></i>
                 </div>
             </div>
             <!--END CURRENT-SONG  -->
@@ -400,13 +444,17 @@
 
 
             <!-- SPOTIFY-TOOL  -->
-            <div class="spotify-tools debug-h-100 debug-w-100 debug-blue">
-                <i>icon</i>
-                <i>icon</i>
-                <i>icon</i>
-                <div class="sound-loud">roem</div>
+            <div class="spotify-tools">
+                <i class="fa-solid fa-list"></i>
+                <i class="fa-solid fa-display"></i>
+                <i class="fa-solid fa-volume-high"></i>
+                <div class="sound-volume">
+                    <div class="effective"></div>
+                </div>
             </div>
             <!--END SPOTIFY-TOOL  -->
+
+
 
         </footer>
         <!--END FOOTER  -->
