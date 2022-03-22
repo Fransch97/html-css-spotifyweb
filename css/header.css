@@ -3,9 +3,8 @@
 } */
 
 /* GENERALS  */
-header{
-    display: inline-block;
-    height: calc(100vh);
+aside{
+    height: calc(100vh - 100px);
     width: 200px;
     color: lightgray;
 }
