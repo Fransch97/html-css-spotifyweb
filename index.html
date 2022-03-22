@@ -8,8 +8,9 @@
     <!-- CSS -->
     <link rel="stylesheet" href="css/debug.css">
     <link rel="stylesheet" href="css/general.css">
-    <link rel="stylesheet" href="css/aside.css">
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/aside.css">
+    <link rel="stylesheet" href="css/section.css">
     <link rel="stylesheet" href="css/footer.css">
     <!--END CSS -->
 
@@ -28,95 +29,152 @@
     <div class="window">
 
 
-        <!-- HEADER  -->
-        <header class="debug-red  " >
-        </header>
-        <!--END HEADER  -->
-
-
         <!-- MAIN  -->
         <main class="debug-blue debug-h-100 debug-w-100 ">
             <!-- ASIDE  -->
             <aside class="debug-red  ">
                 
-            <!-- LOGO  -->
-            <div class="logo">Logo</div>
-            <!--END LOGO  -->
-            
-            <!-- NAV  -->
-            <nav>
+                <!-- LOGO  -->
+                <div class="logo">Logo</div>
+                <!--END LOGO  -->
+                
+                <!-- NAV  -->
+                <nav>
 
-                <!-- DIRECTIONS  -->
-                <div class="directions">
+                    <!-- DIRECTIONS  -->
+                    <div class="directions">
+                        
+                        <!-- home  -->
+                        <div class="home">
+                            <i>icon</i>
+                            <span>Home</span>
+                        </div>
+                        <!--end home  -->
                     
-                    <!-- home  -->
-                    <div class="home">
-                        <i>icon</i>
-                        <span>Home</span>
+                        <!-- search  -->
+                        <div class="search">
+                            <i>icon</i>
+                            <span>Home</span>
+                        </div>
+                        <!--end search  -->
+
+                        <!-- library  -->
+                        <div class="library">
+                            <i>icon</i>
+                            <span>Home</span>
+                        </div>
+                        <!--end library  -->
+                    
                     </div>
-                    <!--end home  -->
+                    <!--end DIRECTIONS  -->
                 
-                    <!-- search  -->
-                    <div class="search">
-                        <i>icon</i>
-                        <span>Home</span>
-                    </div>
-                    <!--end search  -->
+                    <!-- PLAYLIST -->
+                    <div class="playlist">
+                        <h3>Playlist</h3>
 
-                    <!-- library  -->
-                    <div class="library">
-                        <i>icon</i>
-                        <span>Home</span>
+                        <!-- creatplaylist  -->
+                        <div class="creat-playlist">
+                            <i>icon</i>
+                            <span>Crea playlist</span>
+                        </div>
+                        <!--end creatplaylist  -->
+                        <ul>
+                            <li><a href="#">Nome Playlist</a></li>
+                            <li><a href="#">Nome Playlist</a></li>
+                            <li><a href="#">Nome Playlist</a></li>
+                            <li><a href="#">Nome Playlist</a></li>
+                            <li><a href="#">Nome Playlist</a></li>
+                            <li><a href="#">Nome Playlist</a></li>
+                            <li><a href="#">Nome Playlist</a></li>
+                        </ul>
                     </div>
-                    <!--end library  -->
-                
-                </div>
-                <!--end DIRECTIONS  -->
-            
-                <!-- PLAYLIST -->
-                <div class="playlist">
-                    <h3>Playlist</h3>
+                    <!--END PLAYLIST -->
 
-                    <!-- creatplaylist  -->
-                    <div class="creat-playlist">
+                    <!-- PROFILE -->
+                    <div class="profile">
                         <i>icon</i>
-                        <span>Crea playlist</span>
+                        <span>Installa app</span>
+                        <hr>
+                        <div class="profile-id">
+                            <i>icon</i>
+                            <span>marco polo</span>
+                        </div>
                     </div>
-                    <!--end creatplaylist  -->
-                    <ul>
-                        <li><a href="#">Nome Playlist</a></li>
-                        <li><a href="#">Nome Playlist</a></li>
-                        <li><a href="#">Nome Playlist</a></li>
-                        <li><a href="#">Nome Playlist</a></li>
-                        <li><a href="#">Nome Playlist</a></li>
-                        <li><a href="#">Nome Playlist</a></li>
-                        <li><a href="#">Nome Playlist</a></li>
-                    </ul>
-                </div>
-                <!--END PLAYLIST -->
+                    <!--END PROFILE -->
 
-                <!-- PROFILE -->
-                <div class="profile">
-                    <i>icon</i>
-                    <span>Installa app</span>
-                    <hr>
-                    <div class="profile-id">
-                        <i>icon</i>
-                        <span>marco polo</span>
-                    </div>
-                </div>
-                <!--END PROFILE -->
-
-            </nav>
-            <!--END NAV  -->
+                </nav>
+                <!--END NAV  -->
             </aside>
             <!-- END ASIDE  -->
+
+            <!-- SECTION  -->
+            <section class="debug-green ">
+
+                <!-- UPGRADE  -->
+                <div class="upgrade debug-blue">
+                    <button>effettua l'upgrade</button>
+                </div>
+                <!--END UPGRADE  -->
+
+
+
+            </section>
+            <!--END SECTION  -->
+
+
+
+
+
+
+
+
+
+
         </main>
         <!--END MAIN  -->
 
 
         <!-- FOOTER  -->
         <footer class="debug-yellow debug-h-100">
+            <!-- CURRENT-SONG  -->
+            <div class="current-song debug-h-100 debug-w-100 debug-blue">
+                <img src="" alt="">
+                <div class="song-title">
+                    <span>lorem</span>
+                    <span>lorem</span>
+                </div>
+            </div>
+            <!--END CURRENT-SONG  -->
+
+            <!-- LISENING  -->
+            <div class="lisening debug-h-100 debug-w-100 debug-blue">
+
+
+                <!-- play-tools  -->
+                <div class="play-tools"></div>
+                <!--end play-tools  -->
+
+
+                <!-- play-infos -->
+                <div class="play-infos">
+
+                </div>
+                <!--end play-infos -->
+
+
+            </div>
+            <!--END LISENING  -->
+
+
+
+            <!-- SPOTIFY-TOOL  -->
+            <div class="spotify-tools debug-h-100 debug-w-100 debug-blue">
+                <i>icon</i>
+                <i>icon</i>
+                <i>icon</i>
+                <div class="sound-loud">roem</div>
+            </div>
+            <!--END SPOTIFY-TOOL  -->
 
         </footer>
         <!--END FOOTER  -->

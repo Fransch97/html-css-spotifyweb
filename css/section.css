@@ -1,0 +1,13 @@
+section{
+    width: calc(100% - 200px);
+    height: 100%;
+}
+
+.upgrade{
+    height: 80px;
+    width: calc(100% - 200px);
+    position: fixed;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
