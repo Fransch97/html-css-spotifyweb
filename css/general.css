@@ -18,7 +18,13 @@
     width: 100%;
     flex-wrap: wrap;
 }
+li{
+    list-style: none;
+}
 
+a{
+    color: white;
+}
 
 
 

@@ -7,8 +7,41 @@ aside{
     height: 100%;
     width: 200px;
     color: lightgray;
+    background-color: black;
 }
 
 a{
     text-decoration: none;
+}
+
+.logo{
+    padding: 20px 10px;
+}
+
+.logo img{
+    width: 150px;
+}
+
+nav{
+    display: flex;
+    flex-direction: column;
+    height: calc(100% - 98px );
+}
+
+.playlist,
+.directions,
+.profile{
+    padding: 0 20px;
+}
+
+
+.directions{
+    min-height: 70px;
+}
+
+
+.playlist{
+    flex-grow: 1;
+    min-height: 50px;
+    overflow: auto;
 }
