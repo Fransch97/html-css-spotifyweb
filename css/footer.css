@@ -35,12 +35,49 @@ footer{
 
 .lisening{
     flex-grow: 1;
-    border: solid black 2px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.played-screen{
+    width: 60%;
+    display: inline-block;
+    background-color: #585858;
+    width: 50%;
+    height: 5px;
+    border-radius: 5px;
+    margin: 0 2%;
+}
+
+.effective.played{
+    width: 2%;
 }
 
 
+.play-tools,
+.play-infos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.play-tools{
+    padding: 10px;
+}
+
+.play-tools i{
+    margin: 0 10px;
+    cursor: pointer;
+}
+.fa-circle-play{
+    font-size: 30px;
+}
 
 
+.play-infos{
+    font-size: 10px;
+}
 
 
 
