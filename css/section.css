@@ -103,6 +103,10 @@ p{
 .layover{
     display: none;
 }
+
+.layover i{
+    font-size: 50px;
+}
 .img-container:hover .layover{
     background-color: rgba(0, 0, 0, 0.481);
     width: 100%;
