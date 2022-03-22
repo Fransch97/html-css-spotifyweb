@@ -1,3 +1,117 @@
 /* body{
     background-color: red;
 } */
+
+
+
+
+/* GENEREAL */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+
+
+/* UTILITY'S */
+
+.window-big{
+    width: 90%; /*for now*/
+    margin: 0 auto;
+}
+.window-medium{
+    margin: 0 auto;
+    width: 80%; /*for now*/
+}
+.window-small{
+    margin: 0 auto;
+    width: 70%; /*for now*/
+}
+
+/* float  */
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.float-left{
+    float: left;
+}
+
+.float-right{
+    float: right;
+}
+
+
+/* absolut */
+.relative{
+    position: relative;
+}
+
+.fixed{
+    position: fixed;
+}
+
+.absolute{
+    position: absolute;
+}
+
+.width100{
+    width: 100%;
+}
+
+
+/* DEBUG */
+
+/* backgrounds */
+.debug-red{
+    background-color: red;
+}
+.debug-blue{
+    background-color: blue;
+}
+.debug-yellow{
+    background-color: yellow;
+}
+.debug-green{
+    background-color: green;
+}
+
+/* sizes */
+.debug-h-100{
+    min-height: 100px;
+}
+.debug-h-200{
+    min-height: 200px;
+}
+.debug-h-200{
+    min-height: 200px;
+}
+.debug-h-300{
+    min-height: 300px;
+}
+.debug-h-400{
+    min-height: 400px;
+}
+
+
+.debug-w-100{
+    min-width: 100px;
+}
+.debug-w-200{
+    min-width: 200px;
+}
+.debug-w-200{
+    min-width: 200px;
+}
+.debug-w-300{
+    min-width: 300px;
+}
+.debug-w-400{
+    min-width: 400px;
+}
