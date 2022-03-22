@@ -1,0 +1,78 @@
+
+
+@media (max-width:1200px) {
+
+    .song{
+    width: calc(100% / 4);
+
+    }
+    
+}
+
+@media (max-width:900px) {
+
+    .song{
+    width: calc(100% / 2);
+
+    }
+    section ul{
+        flex-wrap: wrap;
+    }
+    
+}
+
+@media (max-width:650px) {
+
+    .logo{
+        display: none;
+    }
+    aside{
+        width: 50px;
+        justify-content: space-between;
+    }
+    
+    aside .playlist,
+    hr,
+    aside span{
+        display: none;
+    }
+
+    nav{
+        height: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .directions div,
+    .directions #active-direction
+    {
+        margin: 0 auto;
+        border: none;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+    }
+
+    .directions div{
+        margin: 10px 0;
+    }
+
+
+    .profile{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 0 0 10px 0;
+        border: none;
+        padding-right: 10px;
+    }
+
+    .upgrade{
+        width: calc(100% - 50px);
+    }
+    section ul{
+        flex-wrap: wrap;
+    }
+}

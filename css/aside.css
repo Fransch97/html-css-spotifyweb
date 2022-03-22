@@ -19,6 +19,12 @@ aside span{
     color: #686b70;
 }
 
+
+
+.logo-small{
+    display: none;
+}
+
 #plus{
     font-size: 2rem;
     width: 40px;
