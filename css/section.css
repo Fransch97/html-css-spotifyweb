@@ -104,6 +104,10 @@ p{
     display: none;
 }
 
+.artists .layover{
+    border-radius: 50%;
+}
+
 .layover i{
     font-size: 50px;
 }
