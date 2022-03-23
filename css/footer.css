@@ -48,12 +48,33 @@ footer{
     height: 5px;
     border-radius: 5px;
     margin: 0 2%;
+    
 }
 
 .effective.played{
     width: 2%;
+    position: relative;
+
 }
 
+
+
+.played-screen:hover #active-played-green{
+    background-color: greenyellow;
+    border-radius: 5px;
+    height: 100%;
+}
+
+.played-screen:hover #active-played-drag-point{
+    background-color: white;
+    border-radius: 50%;
+    height: 15px;
+    width: 15px;
+    position: absolute;
+    left: 100%;
+    bottom: 50%;
+    transform: translate(-25%, 50%);
+}
 
 .play-tools,
 .play-infos{
