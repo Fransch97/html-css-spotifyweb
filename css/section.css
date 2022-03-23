@@ -7,7 +7,7 @@ section{
 
 .upgrade{
     height: 80px;
-    width: calc(100% - 250px);
+    width: calc(100% - 230px);
     position: fixed;
     display: flex;
     justify-content: flex-end;
