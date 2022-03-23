@@ -22,6 +22,11 @@
 }
 
 @media (max-width:650px) {
+
+    .upgrade{
+        justify-content: center;
+    }
+
     aside .directions .logo-small{
         display: inline-block;
         padding: 0 8px;
@@ -99,7 +104,17 @@
     }
 }
 
-@media (max-width:455px){
+@media (max-width:458px){
+    /* MAIN  */
+    .upgrade{
+        justify-content: center;
+    }
+    .button{
+        font-size: 16px;
+        text-align: center;
+        padding: 10px;
+    }
+
     /* FOOTER  */
     footer .current-song .song-title-name,
     footer .current-song .icons,
@@ -108,12 +123,21 @@
     footer .spotify-tools .fa-list{
         display: none;
     }
+
+
+    .current-song{
+        min-width: auto;
+    }
+
+    .lisening{
+        min-width: 50%;
+    }
+
+
     footer .spotify-tools{
         min-width: auto;
         flex-direction: column;
         justify-content: center;
     }
-    footer .spotify-tools .fa-volume-high:hover  .sound-volume{
-        display: inline-block;
-    }
+    
 }
