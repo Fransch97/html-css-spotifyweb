@@ -179,6 +179,12 @@
         width: calc(100% / 1);
 
     }
+    section ul{
+        margin-top: 20px;
+        flex-direction: column;
+        align-items: center;
+
+    }
 
 }
 
@@ -186,4 +192,6 @@
     .upgrade{
         display: none;
     }
+
+    
 }
