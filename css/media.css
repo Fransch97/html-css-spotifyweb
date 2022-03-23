@@ -75,4 +75,22 @@
     section ul{
         flex-wrap: wrap;
     }
+    .song-title{
+        margin-right: 5px;
+        padding: 5px;
+    }
+    .current-song{
+        min-width: 130px;
+        width: 20%;
+        margin-right: 5px;
+        flex-shrink: 0;
+    }
+    .current-song img{
+        width: 70%;
+        height: 70%;
+    }
+
+    .spotify-tools{
+        min-width: 120px;
+    }
 }
