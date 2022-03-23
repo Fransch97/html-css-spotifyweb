@@ -22,6 +22,10 @@
 }
 
 @media (max-width:650px) {
+    aside .directions .logo-small{
+        display: inline-block;
+        padding: 0 8px;
+    }
 
     .logo{
         display: none;
@@ -92,5 +96,24 @@
 
     .spotify-tools{
         min-width: 120px;
+    }
+}
+
+@media (max-width:455px){
+    /* FOOTER  */
+    footer .current-song .song-title-name,
+    footer .current-song .icons,
+    .sound-volume,
+    footer .spotify-tools .fa-display,
+    footer .spotify-tools .fa-list{
+        display: none;
+    }
+    footer .spotify-tools{
+        min-width: auto;
+        flex-direction: column;
+        justify-content: center;
+    }
+    footer .spotify-tools .fa-volume-high:hover  .sound-volume{
+        display: inline-block;
     }
 }
