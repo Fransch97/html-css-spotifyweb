@@ -74,6 +74,7 @@ footer{
     left: 100%;
     bottom: 50%;
     transform: translate(-25%, 50%);
+    cursor: grab;
 }
 
 .play-tools,
@@ -128,5 +129,22 @@ footer{
     width: 20%;
     background-color: #c1c1c1;
     border-radius: 5px;
+    position: relative;
+}
+.sound-volume:hover #sound-volume-green{
+    background-color: greenyellow;
+    border-radius: 5px;
+    height: 100%;
+}
 
+.sound-volume:hover #sound-volume-drag-point{
+    background-color: white;
+    border-radius: 50%;
+    height: 15px;
+    width: 15px;
+    position: absolute;
+    left: 100%;
+    bottom: 50%;
+    transform: translate(-25%, 50%);
+    cursor: grab;
 }
