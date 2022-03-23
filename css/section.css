@@ -24,6 +24,11 @@ section{
     margin-right: 20px;
 }
 
+.button:hover{
+    /* font-size: 3rem; esagerato lol */
+    font-size: 1.2rem;
+}
+
 .music-list{
     margin-bottom: 40px; 
 }

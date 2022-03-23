@@ -12,7 +12,23 @@ aside{
 
 a{
     text-decoration: none;
+    display: flex;
+    align-items: center;
 }
+aside nav ul li :hover{
+    color: white;
+}
+aside span:hover{
+    color: white;
+}
+.creat-playlist:hover #plus{
+    background-color: white;
+}
+.creat-playlist:hover span{
+    color: white;
+    cursor: pointer;
+}
+
 
 aside a,
 aside span{
@@ -42,6 +58,11 @@ aside li, .creat-playlist{
 .directions{
     padding-bottom: 20px;
     flex-shrink: 0;
+}
+
+h4{
+    padding: 15px 20px;
+    text-transform: uppercase;
 }
 
 .playlist ul li 
@@ -122,12 +143,17 @@ nav{
     
     display: flex;
     align-items: center;
+    cursor: pointer;
 }
 
 .install-app{
     font-size: 0.8rem;
 }
 
+.profile-id span{
+    color: white;
+    text-transform: capitalize;
+}
 
 
 .profile-img{

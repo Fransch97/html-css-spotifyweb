@@ -32,6 +32,20 @@ footer{
     color: white;
 }
 
+footer .current-song .icons i{
+    color: #585858;
+}
+
+footer .current-song .icons i:hover{
+    color: white;
+    cursor: pointer;
+}
+
+footer i:hover{
+    scale: 1.2;
+    cursor: pointer;
+}
+
 
 .lisening{
     flex-grow: 1;
@@ -48,8 +62,11 @@ footer{
     height: 5px;
     border-radius: 5px;
     margin: 0 2%;
+    cursor: pointer;
     
 }
+
+
 
 .effective.played{
     width: 2%;
@@ -122,8 +139,10 @@ footer{
     background-color: #585858;
     width: 50%;
     height: 5px;
+    cursor: pointer;
     border-radius: 5px;
 }
+
 .effective{
     height: 100%;
     width: 20%;

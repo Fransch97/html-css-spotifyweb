@@ -42,7 +42,8 @@
     
     aside .playlist,
     hr,
-    aside span{
+    aside span,
+    h4{
         display: none;
     }
 
