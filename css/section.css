@@ -111,6 +111,7 @@ h1{
 }
 .layover{
     display: none;
+    cursor: pointer;
 }
 
 .artists .layover{

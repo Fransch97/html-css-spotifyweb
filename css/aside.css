@@ -4,7 +4,7 @@
 
 aside{
     height: 100%;
-    width: 250px;
+    width: 230px;
     color: lightgray;
     background-color: black;
     flex-shrink: 0;
@@ -60,14 +60,15 @@ aside li, .creat-playlist{
     flex-shrink: 0;
 }
 
-h4{
+aside h4{
     padding: 15px 20px;
     text-transform: uppercase;
 }
 
 .playlist ul li 
 {
-    padding: 15px 20px;
+    padding: 10px 20px;
+    font-size: 0.9rem;
 }
 
 .directions div{

@@ -51,6 +51,20 @@
         height: 100%;
         display: flex;
         justify-content: space-between;
+        align-items: center;
+        overflow-x: hidden;
+    }
+    .install-app{
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        width: 60px;
+        padding-right: 14px
+    }
+    .profile{
+        height: 100px;
+        justify-content: auto;
     }
 
     .directions div,
@@ -116,6 +130,8 @@
         padding: 10px;
     }
 
+   
+    
     /* FOOTER  */
     footer .current-song .song-title-name,
     footer .current-song .icons,
