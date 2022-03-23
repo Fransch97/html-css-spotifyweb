@@ -142,3 +142,32 @@
     }
     
 }
+
+@media (max-width:268px){
+    aside,
+    .upgrade{
+        display: none;
+    }
+    section{
+        text-align: center;
+    }
+    section h1{
+        padding: 0 4px;
+    }
+    .current-song,
+    .spotify-tools{
+        display: none;
+    }
+
+    .song{
+        width: calc(100% / 1);
+
+    }
+
+}
+
+@media (max-height:177px) {
+    .upgrade{
+        display: none;
+    }
+}
